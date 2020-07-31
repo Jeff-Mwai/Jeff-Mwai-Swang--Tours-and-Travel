@@ -1,0 +1,143 @@
+
+*{
+margin:0;
+}
+
+header {
+    background-color: rgb(6, 59, 80);
+}
+header *{
+    color: white;
+}
+header h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px;
+}
+header p {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(240, 245, 248);
+    padding-top: 0;
+    margin-left: 191px;
+    margin-top: -20px;
+}
+
+.navbar {
+    color: white;
+    overflow: hidden;
+    margin-bottom: 0px;
+    width: 100%;
+    font-size: 20px;
+    margin-top: -30px;
+    
+}
+.navbar a{
+    float: right;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+header .navbar a:hover{
+    margin-right: 15px;
+    color: rgb(204, 10, 10);
+    transition: all .4s;
+
+    }
+body, html {
+    height: 100%;
+}
+.page-wrapper {
+    min-height: 100%;
+}
+.rolling-pic {
+    left: 0px;
+    margin-bottom: 20px;
+
+}
+.deals {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 40px 20px;
+}
+
+.deals img{
+    margin: 0 10px;
+}
+span {
+    position: static;
+    margin-top: 250px;
+    margin-left: -235px;
+    text-align: center;
+}
+
+
+.deals-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+.deals-3 {
+     display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+.info {
+    padding: 25px;
+    display: flex;
+    background: lightgrey;
+}
+
+.news {
+    padding: 80px;
+    margin: 0 20px 0 50px;
+}
+.latest {
+    margin-top: 20px;
+}
+.reopens {
+    margin-top: 20px;
+}
+.footer {
+    background-color: #303036;
+    color: #d3d3d3;
+    height: 300px;
+    position: relative;
+}
+.footer-content {
+    display: flex;
+}
+.footer .footer-content .footer-section {
+    flex: 1;
+}
+
+.footer .footer-content h3 {
+    color: white;
+    font-family: "Lucida Console", Courier, monospace;
+}
+.footer .footer-content .footer-section ul a {
+    margin-bottom: 8px;
+    font-size: 16px;
+    display: block;
+    color: rgb(221, 215, 215);
+
+}
+.footer .footer-content .footer-section ul a:hover {
+    margin-left: 10px;
+    color: white;
+    transition: all .4s;
+}
+
+.footer .footer-copyright{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    bottom:0px;
+    background: #545461;
+    color: #8b8b99;
+    padding: 20px;
+    left: 0px;
+}
+.one ul {
+    list-style: none;
+}
